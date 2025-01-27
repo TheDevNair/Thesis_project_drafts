@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 
 # Configuration
 PARQUET_PATH = r"C:\Users\Dev\OneDrive\Desktop\hbb_production_parquet\ntuple_merged_10_optimized.parquet"
-MODEL_SAVE_PATH = "hbb_dnn_tagger_v2.keras"
+MODEL_SAVE_PATH = "hbb_dnn_tagger.keras"
 BATCH_SIZE = 1024
 EPOCHS = 50
 VALIDATION_SPLIT = 0.2
