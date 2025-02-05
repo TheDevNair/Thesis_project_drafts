@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 # ============================================================================
 # Configuration
 # ============================================================================
-# Set this to the path of your Parquet file (optimized or raw)
+# Set this to the path of your Parquet file
 PARQUET_PATH = r"C:\Users\Dev\OneDrive\Desktop\hbb_production_parquet\ntuple_merged_10_optimized.parquet"
 
 BATCH_SIZE = 1024
