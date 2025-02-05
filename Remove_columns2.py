@@ -22,7 +22,7 @@ features = [
     'fj_z_ratio'
 ]
 
-# Create composite labels exactly like in your second code
+# Create composite labels
 df['isHbb'] = df['fj_isH'] * df['fj_isBB']
 df['isQCD'] = df['fj_isQCD'] * df['sample_isQCD']
 
